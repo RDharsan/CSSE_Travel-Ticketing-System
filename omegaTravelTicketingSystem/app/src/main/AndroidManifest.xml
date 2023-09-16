@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad">
+
+    <application
+        android:allowBackup="true"
+        android:label="Wheels Up"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".getStartedPage"
+            android:exported="true" />
+        <activity
+            android:name=".Complaint_2"
+            android:exported="true" />
+
+        <activity
+            android:name=".event"
+            android:exported="true" />
+        <activity
+            android:name=".feedback"
+            android:exported="true" />
+        <activity
+            android:name=".agent"
+            android:exported="true" />
+        <activity
+            android:name=".user"
+            android:exported="true" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".package_passenger" />
+        <activity android:name=".busDetails" />
+        <activity android:name=".booking" />
+        <activity android:name=".Manager_booking" />
+        <activity android:name=".Bus" />
+        <activity android:name=".Manager" />
+        <activity android:name=".Manager_package" />
+        <activity android:name=".Driver" />
+        <activity android:name=".Home" />
+        <activity android:name=".welcomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

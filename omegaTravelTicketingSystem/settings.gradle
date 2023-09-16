@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "csse SE3070_WE_12"

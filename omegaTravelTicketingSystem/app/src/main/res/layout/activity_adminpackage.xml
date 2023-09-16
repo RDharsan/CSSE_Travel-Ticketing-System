@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Manager_package">
+
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:background="@android:color/background_dark"
+        android:text="LOGOUT"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/p1"
+        android:layout_width="227dp"
+        android:layout_height="41dp"
+
+        android:layout_marginBottom="28dp"
+
+        android:hint="package Id"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/p2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/p2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="12dp"
+
+        android:hint="package Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <EditText
+        android:id="@+id/p3"
+        android:layout_width="227dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+
+        android:hint="package Cost"
+        android:inputType="number"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/p4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/p4"
+        android:layout_width="228dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginBottom="28dp"
+
+        android:hint="package Features"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/ct"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/navbar2"
+        android:text="ADD"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/navbar2"
+        android:text="EDIT"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="295dp"
+        android:layout_height="24dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@color/navbar2"
+        android:text="SEARCH"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/p1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/navbar2"
+        android:text="VIEW"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="87dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/navbar2"
+        android:text="DELETE"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/p3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+<!--    <Button-->
+<!--        android:id="@+id/cb"-->
+<!--        android:layout_width="93dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:layout_marginStart="92dp"-->
+<!--        android:layout_marginLeft="92dp"-->
+<!--        android:layout_marginBottom="84dp"-->
+<!--        android:text="Cheak"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <EditText
+        android:id="@+id/ct"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="   Total"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="397dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/p1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bb" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

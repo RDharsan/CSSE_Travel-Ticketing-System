@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Feedback"
+        android:textColor="#009688"
+        android:textSize="45sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="352dp"
+        android:src="@drawable/ic_call2" />
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="373dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Rate"
+        android:textColor="#009688"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Rate us by stars"
+        android:textColor="#009688"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/rbStars"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#6FCDC5"
+            android:numStars="5"
+            android:progressBackgroundTint="#A9B6B5"
+            android:progressTint="#0E2724"
+            android:stepSize="0.5"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>

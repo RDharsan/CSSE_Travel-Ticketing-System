@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MAD_Final</string>
+    <string name="invalid_email">Enter the valid email</string>
+    <string name="invalid_password">Enter the valid password</string>
+    <string name="invalid_confirmpassword">check ur confirm password</string>
+    <string name="B1">WHEELS UP</string>
+    <string name="B2">Room Reservation</string>
+    <string name="B3">Customer Name</string>
+    <string name="B4">Phone No</string>
+    <string name="B5">Email</string>
+    <string name="B6">Check_in Date</string>
+    <string name="B7">Check_out Date</string>
+    <string name="B8">No of Rooms</string>
+
+    <string name="invalid_id">Enter the Valid ID</string>
+    <string name="invalid_Bustype">Fill  the Bus Type</string>
+    <string name="invalid_Busseat">Enter the  No of seats</string>
+    <string name="invalid_Buscost">Enter the   bus cost</string>
+    <string name="invalid_Busfacilities">Enter the bus facilities</string>
+    <string name="invalid_name">Enter the Name</string>
+    <string name="invalid_phone">Enter the phonr number</string>
+    <string name="invalid_rooms">Enter the room</string>
+
+    <string name="a1">Employee Name</string>
+    <string name="A2">Vadali Guest house</string>
+    <string name="aa1">Employee Management</string>
+    <string name="AA3">Employee ID</string>
+    <string name="aa4">Photo</string>
+    <string name="aa5">Address</string>
+    <string name="aa6">Telephone No</string>
+    <string name="aa7">Email</string>
+    <string name="aa8">Working Position</string>
+    <string name="aa9">Salary</string>
+    <string name="aa10">Date of Birth</string>
+    <string name="invalid_phoneno">Enter The Valid Phone No</string>
+    <string name="ivalid_Id">Enter the Valid ID</string>
+    <string name="ivalid_address">Enter the Address</string>
+    <string name="invalid_salary">Enter the Salary</string>
+    <string name="ivalid_position">Enter the Working Position</string>
+    <string name="invalid_packageID">Enter the Package ID</string>
+    <string name="invalid_packagename">Enter the Package Nem</string>
+    <string name="invalid_packagecost">Enter the Package Cost</string>
+    <string name="invalid_facilities_pac">Enter the Package Facilities</string>
+    <string name="invalid_typeroom">Enter the Room Type</string>
+    <string name="invalid_chekin">Enter the Checkin</string>
+    <string name="invalid_checkout">Enter the Checkout</string>
+    <string name="invalid_roomno">Enter the No of Rooms</string>
+    <string name="logintext">If you\'re already registered click here to login</string>
+    <string name="head">Any Complaints?</string>
+    <string name="em">Let us know your complaints through email</string>
+    <string name="ail">wheelsup@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="Complaint">Complaint</string>
+
+</resources>
